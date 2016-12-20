@@ -1,14 +1,5 @@
-# HTML5-boilerplate
+# FrontEnd UI Portfolio
 
-Nice starter template for any HTML project.
-
-# Included libraries 
-
-Bootstrap - 3.3.7
-
-Jquery - 3.1.1
-
-FontAwesome - 4.7.0
 
 
 

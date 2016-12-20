@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: creditCard;
+    src: url(asset/font/CREDC___.ttf);
+}
+
+* {
+    font-family: creditCard;
+}
+
+body {
+    padding:1.66%;
+}
+
+.visa {
+    background: linear-gradient(#51BADF, #19A0D9);
+}
+
+.card-container {
+    height: 2.125in;
+    width: 3.370in;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px rgba(102, 102, 102, 0.68);
+    padding: 0 1% 0 1%;
+}
+
+.logo {
+    height:85px;
+}
+
+.card-body {
+    margin-top:-32px;
+}
+
+.flex-h-between {
+    display:flex;
+    justify-content:space-between;
+}
+
+.form-title {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    font-weight:bold;
+    color:white;
+    padding-top:8px;
+}
+
+label {
+  color: white; 
+  font-size: 13px;
+  }
+
+.form-control {
+    color: #656464;
+}

@@ -1,21 +1,64 @@
-
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Hello World</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="css/vendor/bootstrap/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/vendor/font-awesome/css/font-awesome.css">
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<h6>Hello World</h6>
-		<script src="js/vendor/jquery-3.1.1.js"></script>
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/main.js"></script>		
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Hello World</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<form class="card-container visa">
+    <div class="card-header flex-h-between">
+        <h4 class="bold form-title">Payment details</h4>
+        <img class="logo" src="asset/logo/visa.png"/>
+    </div>
+    <div class="card-body">
+        <div style="margin-bottom:10px;">
+            <label for="card-num">Card Number</label>
+            <input type="text" class="form-control" name="card-num" id="card-num" placeholder="ex: 1231 1234 1234 1234"/>
+        </div>
+
+        <div>
+            <div class="flex-h-between">
+                <label for="exp-month">Expiration</label>
+                <label for="cvc" style="padding-right:8px;">CVC CODE</label>
+            </div>
+            <div class="flex-h-between">
+                <select class="form-control" style="width:40%;" id="exp-month">
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select class="form-control" style="width:30%;" id="exp-year">
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                </select>
+                <input class="form-control" type="text" style="width:26%;" placeholder="ex: 1234" name="cvc-code" id="cvc"/>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="js/vendor/jquery-3.1.1.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
 </html>
