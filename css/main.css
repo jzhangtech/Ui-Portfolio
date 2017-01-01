@@ -3,9 +3,14 @@
    ========================================================================== */
 @font-face {
   font-family: creditCard;
-  src: url(asset/font/CREDC___.ttf); }
+  src: url(../asset/fonts/credit/CREDC___.ttf); }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../asset/fonts/roboto/Roboto-Regular.ttf); }
+
 * {
-  font-family: creditCard; }
+  font-family: Roboto; }
 
 body {
   padding: 1.66%; }
@@ -17,7 +22,7 @@ body {
   height: 2.125in;
   width: 3.370in;
   border-radius: 7px;
-  box-shadow: 1px 1px 1px 1px rgba(102, 102, 102, 0.68);
+  box-shadow: 1px 1px 1px 0px rgba(102, 102, 102, 0.68);
   padding: 0 1% 0 1%; }
 
 .logo {
